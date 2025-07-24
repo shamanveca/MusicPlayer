@@ -1,0 +1,387 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box; /* Делает ограничения размеров элементов по их границе */
+    scroll-behavior: smooth;
+    overflow-anchor: none; /* Запоминает положение на странице и после обновления автоматически прокручивает к тому же элементу */
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    color: #000;
+}
+
+header{
+    background-image: url(./Фото/background\ -\ звездное\ небо.jpg);
+    background-size: contain;
+}
+
+.container{
+    max-width: 1300px;
+    
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+nav{
+    padding-top: 25px;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo{
+    padding-top: 20px;
+}
+
+.menu_list{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.list_item{
+    margin-left: 100px;
+}
+
+.item_link{
+    font-family: 'Istok Web', Montserrat;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 300;
+    transition: 0.5s ease;
+}
+
+.item_link:hover{
+    font-size: 22px;
+    color: bisque;
+    transition: 1s ease;
+}
+
+.telo1{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.telo1_text{
+    color: white;
+}
+
+.zag_kenia{
+    font-family: 'Kenia', Montserrat;
+    font-size: 150px;
+    line-height: 152px;
+    margin-top: 150px;
+    font-weight: 300;
+}
+
+.text_istok_web{
+    font-family: 'Istok Web', Montserrat;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 300;
+    margin-top: 150px;
+    margin-bottom: 250px;
+}
+
+.telo1_img{
+    position: relative;
+    
+}
+
+.telefon{
+    position: absolute;
+    z-index: 2;
+    margin-left: 400px;
+    
+}
+
+.kabel{
+    position: absolute;
+    z-index: 1;
+    top: 735px;
+    left: 445px;
+    clip-path: inset(0px 0px 187px); /* Обрезание, задает видимую область, как ножницы */
+}
+
+.telo2{
+    background-color: #D53005;
+    max-width: 1800px;
+    height: 1024px;
+    margin: 0 auto;
+    padding-left: 15px;
+    
+
+}
+
+.telo_zag{
+    margin-left: 160px;
+    padding-top: 80px;
+}
+
+.zag{
+    font-family: 'Karla', Montserrat;
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #FFFFFF;
+    
+}
+
+.telo2_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 160px;
+    margin-top: 50px;
+}
+
+.telo2_button1, .telo2_button2{
+    cursor: pointer;
+}
+
+.telo2_button1{
+    width: 382px;
+    height: 83px;
+    background: linear-gradient(to right, rgb(177, 62, 24), rgb(243, 80, 26));
+    box-shadow: -4px -4px 30px rgba(255, 255, 255, 0.1), 4px 4px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 88px;
+    border: 1,5px solid;
+    font-family: 'Karla', Montserrat;
+    font-size: 40px;
+    line-height: 47px;
+    font-weight: 350;
+    color: #FFFFFF;
+}
+
+.telo2_button2{
+    width: 382px;
+    height: 83px;
+    background: linear-gradient(to right, rgb(177, 62, 24), rgb(243, 80, 26));
+    box-shadow: -4px -4px 30px rgba(255, 255, 255, 0.1), 4px 4px 4px rgba(0, 0, 0, 0.5);
+    
+    border: 1,5px solid;
+    font-family: 'Karla', Montserrat;
+    font-size: 40px;
+    line-height: 47px;
+    font-weight: 350;
+    color: #FFFFFF;
+}
+
+.telo2_button1:active, .telo2_button2:active{
+    box-shadow: none;
+}
+
+.telo3{
+    background: linear-gradient(#D53005, #000000 6%);
+    max-width: 1800px;
+    height: 1024px;
+    margin: 0 auto;
+    padding-left: 15px;
+    
+}
+
+.text3{
+    color: #FFFFFF;
+    font-family: 'Karla', Montserrat;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 350;
+}
+
+.telo3_text{
+    margin-left: 350px;
+    padding-top: 400px;
+}
+
+.telo4{
+    background-color: #D53005;
+    max-width: 1800px;
+    height: 1024px;
+    margin: 0 auto;
+    padding-left: 15px;
+}
+
+.telo4_text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    position: relative;
+}
+
+.telo4_button{
+    margin-bottom: 130px;
+    margin-top: 90px;
+}
+
+.telo4_button1, .telo4_button2{
+    width: 240px;
+    height: 60px;
+    border-radius: 30px;
+    box-shadow: -4px -4px 4px rgba(255, 255, 255, 0.1), 4px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Montserrat';
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    
+}
+
+.telo4_button1{
+    background-color: rgba(2, 2, 2, 0.9);
+    margin-bottom: 48px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.telo4_button2{
+    background-color: rgb(227, 227, 227);
+    color: #000;
+    border: 1px solid;
+}
+
+.telo4_button1:hover, .telo4_button2:hover{
+    cursor: pointer;
+}
+
+.telo4_button1:active, .telo4_button2:active{
+    box-shadow: none;
+}
+
+.telo4_button{
+    margin-left: 150px;
+}
+
+.telo4_opis{
+    font-family: 'Montserrat';
+    text-align: center;
+    position: absolute;
+    left: 60px;
+}
+
+.opis_zag{
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 17px;
+}
+
+.opis_text{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.opis_ssil{
+    color: rgba(4, 4, 4, 0.8);
+    border-bottom: 1.5px solid;
+}
+
+.opis_ssil:hover{
+    border: 1px solid;
+    border-color: rgba(2, 2, 2, 0.3);
+    background-color: rgba(2, 2, 2, 0.2);
+    color: #FFFFFF;
+    box-shadow: -4px -4px 4px rgba(255, 255, 255, 0.1), 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.opis_ssil:active{
+    box-shadow: none;
+}
+
+.footer{
+    background: linear-gradient(rgb(213, 48, 5), rgb(0, 0, 0) 5%);
+    height: 536px;
+}
+
+.niz_menu{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 75px;
+    padding-top: 120px;
+    font-family: 'Montserrat';
+    text-align: left;
+}
+
+.niz_menu_list3, .niz_menu_list2{
+    margin-left: 170px;
+}
+
+.niz_zag{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.niz_items{
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    
+}
+
+.niz_menu_items1, .niz_menu_items2, .niz_menu_items3{
+    margin-bottom: 25px;
+}
+
+.niz_items:hover{
+    text-decoration: underline;
+}
+
+.text_kenia{
+    font-family: 'Kenia', 'Montserrat';
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 350;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.text_footer{
+    margin-left: 110px;
+    margin-top: 80px;
+}
+
+.footer_list{
+    margin-left: 110px;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+}
+
+.footer_item{
+    display: inline;
+}
+
+.footer_link{
+    margin-left: 160px;
+}
+
+.footer_link:hover{
+    text-decoration: underline;
+}
